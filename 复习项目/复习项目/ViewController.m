@@ -17,7 +17,13 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     UIButton *btn = [[UIButton alloc]initWithFrame:[UIScreen mainScreen].bounds];
+    
     [self.view addSubview:btn];
+    
+    UILabel *newLabel = [[UILabel alloc]initWithFrame:CGRectMake(0, 0, 20, 20)];
+    
+    [self.view addSubview:newLabel];
+    
 }
 
 - (void)didReceiveMemoryWarning {
